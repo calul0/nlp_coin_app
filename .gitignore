@@ -1,0 +1,19 @@
+# IDE related
+*__pycache__*
+.idea/
+
+# Python environments
+venv*/
+.tox/
+
+# Sensitive data
+src/main/resources/database.yaml
+
+# Frequent rendered reports and results
+results/reports/*
+results/trained_model/re/*
+results/confusion_matrix/*
+cnt/trained_model/ner/*
+cnt/trained_model/re/*
+results/trainings_set/*
+

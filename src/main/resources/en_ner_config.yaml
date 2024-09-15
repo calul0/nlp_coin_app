@@ -1,0 +1,9 @@
+ner:
+  id_col: id
+  model_directory: "../../results/trained_model/ner/"
+  design_col: design_en
+  language: _en
+  add_columns:
+    - id
+    - name_en
+    - alternativenames_en
